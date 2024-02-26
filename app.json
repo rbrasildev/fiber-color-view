@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "fibercolorview",
+    "name": "FiberColorView",
     "slug": "fibercolorview",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.brazilcode.fibercolorview",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af324016-2eaf-414a-88b0-2ff15a61b408"
+      }
     }
   }
 }
