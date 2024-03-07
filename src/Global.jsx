@@ -24,7 +24,9 @@ const styles = StyleSheet.create({
     },
     wrapform : {
       alignItems:'center',
-      marginBottom:10,
+      marginBottom:25,
+      marginTop:40
+
     },
     content : {
       padding:20,

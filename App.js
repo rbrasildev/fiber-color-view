@@ -14,6 +14,7 @@ export default function App() {
   if (numberFiber > 144) {
     setNumberFiber(144);
   }
+  
 
   numberFiber < 1 ? setNumberFiber(1) : numberFiber;
 
@@ -44,7 +45,6 @@ export default function App() {
       return 12
     }
   }
-
 
   const fiberColorHexa = [
     '#00B050',
@@ -169,18 +169,17 @@ export default function App() {
 
         <View style={styles.wrapform}>
           <TextInput
+            placeholder='0'
+            placeholderTextColor="#f3f3f3"
             value={numberFiber}
             onChangeText={setNumberFiber}
             style={{
               fontSize: 90,
               fontWeight: 'bold',
-              color: '#B4B8BF',
-              width: 200,
+              color: '#f3f3f3',
+              width: '80%',
               textAlign: 'center',
-              borderBottomColor: '#f5f5f5',
               opacity: 0.3,
-              borderBottomWidth: 1,
-
             }}
             editable
             maxLength={3}
